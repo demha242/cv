@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ahmed's Site</title>
+</head>
+
+<body>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="images/ahmeds.png" alt="Picture of Ahmed"></td>
+            <td><h1>Farzamuddin Ahmed</h1>
+                <p><em>Student at Honors College <strong><a href="https://www.uh.edu/">University of Houston</a></strong>.</em></p>
+                <p>Born in Qatar but raised in Chicago and Houston. Attended William B. Travis High School 
+                    and followed up with the Univeristy of Houston through the Honors College. Started with 
+                    studying Electrical Engineering but switched to computer science due to greed and laziness.
+                    Luckily a spiritual master came and saved him from himself and gave his life a purpose beyond
+                    himself.
+                </p></td>
+        </tr>
+    </table>
+
+    <hr>
+    <h3>Education</h3>
+    <ul>
+        <li>Todd Hall Elementary School</li>
+        <li>Lincoln Hall Middle School</li>
+        <li>William B Travis High School</li>
+        <li>Houston Community College</li>
+        <li>University of Houston</li>
+    </ul>
+
+    <hr>
+    <h3>Work Experience</h3>
+    <table border="1" cellspacing="10">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2010 - 2013</td>
+                <td>Lead Web Developer at Google</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Artificial Intelligence Researcher at 2Sigma</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    
+    <hr>
+    <h3>Skills</h3>
+    <table border="1" cellspacing="10">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>IOS Development</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Running</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Video Editing</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contact.html">Contact Me</a>
+</body>
+
+</html>
+
+<!--
+-p tag (parapragh) formats makes a new line and groups text into a paragraph
+-em (emphasis) and i (italicize) tags both italicize but use em tag because html is about structure not styling
+-same with b (bold) tag and strong tag, use strong instead of b because it conmfers meaning, says this text is important
+-ul tag (unordered list) makes a bullet list
+-li tag (list item) goes inside ul element and encloses each bullet point
+-ol tag (ordered list) makes a numbered list of li elements
+-can nest lists within lists, ordered or unordered, can also number with roman numerals or start at a number
+-img tag (<img src="ahmed.png" alt="">) is a self closing tag, must specify source, can be internet url or local image
+ in same directory as website, the alt tag will display text if the site cant render the image, helps with SEO too 
+ benefit of having image in path is not relying on other websites/servers to download and display it, must specify
+ path if image is not on the same level
+-a tag (anchor tag) (<a href 4="http..."><Linked_text</a>) hyperlinks text, href is the hyperlink dest, can be another
+  website or another html page 
+-table tage adds excel style data to page
+-tr tag (table row) makes a new row in the table
+-td tag (table data) makes a new cell in that row
+-tables have header, body, and footer sections like html sites, dont have to structure like this but useful for other 
+ customization where need to isolate table header and body (ex scrolling through table but heading doesnt move)
+-th is a table header, titles for the rows of the tables
+-HTML for structure, CSS for styling, JS for behavior, though can style in HTML use CSS for that
+-can also use tables to affect structure of HTML (ex profile pic on left, name on right)
+-border attribute adds a border to table, cell spacing attribute adds distance between cells
+-use Win+. to type emoji with emoji keyboard
+-can nest tables to maker certain layouts
+-form tag to make forms, just by itself doesnt do anything, within it can place label and input tags,
+ label tag displays information on the form and input tag (<input type="text">) holds input, input tag
+ can do many different things based on its type. ex: text/checkbox/submit/color/password/file/date/range
+ each displays a different element on the form, text area tag makes a textbox in the form, rows and column
+ determine size of the textbox, user can drag to change size of textbox but default chosen by the developer
+ action element in form tag chooses what happens when you click submit, can send user back to homepage or
+ email the input using mailto, mailto opens default email client using the email provided, method element
+ set to post just puts all the info entered into form by user into the email, enctype element sets the encoding
+ type to be used in the forms data that is transferred to the email, name attribute in input tags show what each
+ data is referring to when form data is put into the email
+-->
